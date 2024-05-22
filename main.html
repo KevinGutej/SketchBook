@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Book</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="sketch-container">
+        <h1>Sketch Book</h1>
+        <canvas id="sketchCanvas"></canvas>
+        <div class="sketch-controls">
+            <label for="colorSelector">Color:</label>
+            <input type="color" id="colorSelector" value="#000000">
+            <label for="brushSizeSelector">Brush Size:</label>
+            <input type="range" id="brushSizeSelector" min="1" max="50" value="5">
+            <button id="clearButton">Clear Canvas</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
