@@ -3,24 +3,24 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #e0e0e0;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.sketch-container {
+.draw-app {
     text-align: center;
 }
 
-#sketchCanvas {
-    border: 1px solid #000;
+#drawArea {
+    border: 2px solid #333;
     display: block;
     margin: 0 auto;
     cursor: crosshair;
     background-color: #fff;
 }
 
-.sketch-controls {
+.controls {
     margin-top: 10px;
 }
 
